@@ -7,10 +7,10 @@ class Flower {
   float x;       // x-position of the center of the flower
   float y;       // y-position of the center of the flower
   int petalColor;//hexadecimal number for the color of petals
-  int xSpeed;
-  int ySpeed;
+  float xSpeed;
+  float ySpeed;
 
-  Flower(float temp_r, int temp_n_petals, float temp_x, float temp_y, int temp_petalColor, int tempSpeedX, int tempSpeedY) {
+  Flower(float temp_r, int temp_n_petals, float temp_x, float temp_y, int temp_petalColor, float tempSpeedX, float tempSpeedY) {
     r=temp_r;
     n_petals = temp_n_petals;
     x=temp_x;
